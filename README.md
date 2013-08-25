@@ -18,15 +18,15 @@ Bash
 In `~/.bashrc` for the user and possibly root:
 
 ```bash
-    CONFIG_PATH=/FULL/PATH/TO/THE/HOME/DIRECTORY/.config/bash
-    . $CONFIG_PATH/rc
+CONFIG_PATH=/FULL/PATH/TO/THE/HOME/DIRECTORY/.config/bash
+. $CONFIG_PATH/rc
 ```
 
 Vim
 ---
 
 ```bash
-    ln -s ~/.config/vim/rc .vimrc
+ln -s ~/.config/vim/rc .vimrc
 ```
 
 Git
@@ -35,10 +35,10 @@ Git
 In `~/.gitconfig`
 
 ```
-    [user]
-        name = FULL NAME
-        email = EMAIL
+[user]
+    name = FULL NAME
+    email = EMAIL
 
-    [include]
-        path = ~/.config/git/config
+[include]
+    path = ~/.config/git/config
 ```
