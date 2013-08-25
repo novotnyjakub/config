@@ -30,6 +30,6 @@ fi
 
 PS_DIR="$BLUEBOLD\w\["
 
-PS_END="$YELLOWBOLD \\$ "
+PS_END="$YELLOWBOLD \\$ $GREY"
 
 export PS1="$PS_USER$PS_DIR$PS_END"
