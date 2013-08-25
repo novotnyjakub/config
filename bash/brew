@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+
+completion_scripts=(git-completion.bash git-prompt.sh)
+for file in "${completion_scripts[@]}"
+do
+    if [ -f $(brew --prefix)/etc/bash_completion.d/$file ]
+    then
+        . $(brew --prefix)/etc/bash_completion.d/$file
+    fi
+done        
