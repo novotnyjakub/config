@@ -1,3 +1,4 @@
 #!/usr/bin/env bash
 
 . $CONFIG_PATH/prompt
+. $CONFIG_PATH/aliases
