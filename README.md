@@ -5,10 +5,15 @@ Requirements
 ------------
 
 * Homebrew installed
-* Bash installed via brew
 
 Installation
 ------------
+
+Brew packages:
+
+* bash
+* git
+
 
 Clone the directory as `~/.config`
 
