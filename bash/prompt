@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 
+
 GREY="\[\033[00m\]"
 BLACK="\[\033[0;30m\]"
 BLACKBOLD="\[\033[1;30m\]"
@@ -32,4 +33,11 @@ PS_DIR="$BLUEBOLD\w\["
 
 PS_END="$YELLOWBOLD \\$ $GREY"
 
-export PS1="$PS_USER$PS_DIR$PS_END"
+PS_GIT=""
+GIT_PS1_SHOWDIRTYSTATE=true
+GIT_PS1_SHOWUNTRACKEDFILES=true
+GIT_PS1_SHOWCOLORHINTS=true
+
+PS_GIT="$GREY\$(__git_ps1 '(%s)')"
+
+export PS1="$PS_USER$PS_DIR $PS_GIT $PS_END"
