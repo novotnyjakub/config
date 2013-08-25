@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
 
-. $CONFIG_PATH/brew
+. $CONFIG_PATH/autocompletion
 . $CONFIG_PATH/prompt
 . $CONFIG_PATH/aliases
