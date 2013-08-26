@@ -13,7 +13,7 @@ Brew packages:
 
 * bash
 * git
-
+* bash-autocompletion
 
 Clone the directory as `~/.config`
 
