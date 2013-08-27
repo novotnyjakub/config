@@ -14,6 +14,7 @@ Brew packages:
 * bash
 * git
 * bash-completion
+* z
 
 Clone the directory as `~/.config`
 

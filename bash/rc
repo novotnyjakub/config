@@ -3,3 +3,5 @@
 . $CONFIG_PATH/autocompletion
 . $CONFIG_PATH/prompt
 . $CONFIG_PATH/aliases
+
+. `brew --prefix`/etc/profile.d/z.sh
