@@ -1,3 +1,5 @@
 alias ls='ls -h -G'
 alias ll="ls -l"
 alias lla="ls -la"
+
+alias g="git"
