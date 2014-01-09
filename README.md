@@ -15,6 +15,7 @@ Brew packages:
 * git
 * bash-completion
 * z
+* direnv
 
 Clone the directory as `~/.config`
 

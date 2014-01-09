@@ -5,3 +5,5 @@
 . $CONFIG_PATH/aliases
 
 . `brew --prefix`/etc/profile.d/z.sh
+
+eval "$(direnv hook bash)"
