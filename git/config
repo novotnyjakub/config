@@ -35,4 +35,6 @@
 	status = auto
 	ui = auto
 [branch]
-	autosetupmerge = true
+    autosetupmerge = true
+[merge]
+    conflictstyle = diff3
