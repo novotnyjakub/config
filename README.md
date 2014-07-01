@@ -16,6 +16,11 @@ Brew packages:
 * bash-completion
 * z
 * direnv
+* vim
+
+Other:
+
+* RVM
 
 Clone the directory as `~/.config`
 
@@ -48,4 +53,11 @@ In `~/.gitconfig`
 
 [include]
     path = ~/.config/git/config
+```
+
+RVM
+---
+
+```bash
+ln -s ~/.config/rvm/rc .rvmrc
 ```
