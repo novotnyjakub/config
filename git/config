@@ -38,3 +38,5 @@
     autosetupmerge = true
 [merge]
     conflictstyle = diff3
+[push]
+    default = simple
