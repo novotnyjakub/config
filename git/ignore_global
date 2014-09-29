@@ -18,3 +18,7 @@ TAGS
 !TAGS/
 tags
 !tags/
+
+# Direnv
+########
+.envrc
