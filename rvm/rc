@@ -1,2 +1,5 @@
 # the PATH check always raises warning when using binstubs with direnv
 rvm_silence_path_mismatch_check_flag=1
+
+# don't use gemsets
+rvm_ignore_gemsets_flag=1
