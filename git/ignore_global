@@ -3,6 +3,7 @@
 .idea
 .generators
 .rakeTasks
+*.iml
 
 # OS generated files #
 ######################
