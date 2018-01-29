@@ -40,3 +40,5 @@
     conflictstyle = diff3
 [push]
     default = simple
+[fetch]
+    prune = true
